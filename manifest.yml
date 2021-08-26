@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: testapp-hello-world
+      function: main
+      title: Forge app for Kartik Goel
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/9843f33d-d4d5-401c-bf98-1959c5bfbf7e
